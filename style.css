@@ -1,0 +1,60 @@
+*, *::before, *::after {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Arial, sans-serif;
+  background: #eef3f8;
+  color: #0f2a43;
+}
+
+.wrap {
+  max-width: 400px;
+  margin: 50px auto;
+  background: #fff;
+  padding: 28px;
+  border-radius: 16px;
+  box-shadow: 0 8px 24px rgba(15,42,67,0.12);
+}
+
+label {
+  display: block;
+  margin: 14px 0 6px;
+  font-weight: 600;
+}
+
+input {
+  width: 100%;
+  padding: 10px;
+  border: 2px solid #b8cad8;
+  border-radius: 8px;
+  font: inherit;
+}
+
+input.bad {
+  border-color: #d64545;
+}
+
+.error {
+  color: #d64545;
+  font-size: 0.85rem;
+}
+
+button {
+  margin-top: 18px;
+  width: 100%;
+  background: #2bb3a3;
+  color: #fff;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: 700;
+  cursor: pointer;
+}
+
+.ok {
+  color: #1f8f5a;
+  margin-top: 12px;
+}

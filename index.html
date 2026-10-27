@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Validate-signup-form</title>
+    <link rel="stylesheet" href="style.css">
+  <script src="script.js" defer></script>
+</head>
+<body>
+    <main class="wrap">
+        <h1>Create Account</h1>
+        <form id="form" novalidate>
+            <label for="email">Email</label>
+           <input id="email" type="email" placeholder="you@example.com">
+           <span class="error" id="emailErr"></span>
+
+           <label for="pw">Password (8+ characters)</label>
+           <input id="pw" type="password">
+            <span class="error" id="pwErr"></span>
+
+            <button type="submit">Sign up</button>
+            <p class="ok" id="ok"></p>
+        </form>
+    </main> 
+</body>
+</html>
